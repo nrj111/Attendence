@@ -14,7 +14,7 @@ function App() {
   const[isLoggedIn,setIsLoggedIn] = useState(false);
 
   return (
-  <div className="flex flex-col w-screen h-screen bg-richblack-900 ">
+  <div className="flex flex-col w-screen h-screen bg-richblack-5 ">
     <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
     <Routes>

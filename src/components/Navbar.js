@@ -15,7 +15,7 @@ const Navbar = (props) => {
         </Link>
 
         <nav>
-            <ul className='flex gap-x-6 text-richblack-100'  >
+            <ul className='flex gap-x-6 text-richblack-900'  >
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -33,16 +33,16 @@ const Navbar = (props) => {
         <div className='flex gap-x-4'>
             { !isLoggedIn &&
                 <Link to="/login">
-                    <button className='bg-richblack-800 text-richblack-100 py-[8px]
-                     px-[12px] rounded-[8px] border border-richblack-700'>
+                    <button className='bg-blue-500 text-richblack-900 py-[8px]
+                     px-[12px] rounded-[8px] font-medium'>
                         Log in
                     </button>
                 </Link>
             }
             { !isLoggedIn &&
                 <Link to="/signup">
-                    <button className='bg-richblack-800 text-richblack-100 py-[8px]
-                     px-[12px] rounded-[8px] border border-richblack-700'>
+                    <button className='bg-blue-500 text-richblack-900 py-[8px]
+                     px-[12px] rounded-[8px] font-medium'>
                         Sign up
                     </button>
                 </Link>

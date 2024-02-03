@@ -2,7 +2,7 @@
   import bg from '../assets/White_Bg.jpg'
   import SignupForm from './SignupForm'
   import LoginForm from './LoginForm'
-  import {FcGoogle} from 'react-icons/fc'
+  import { FaGoogle } from "react-icons/fa";
  
    
   const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
@@ -12,13 +12,13 @@
         {/* Title and Description */}
         <div className='w-11/12 max-w-[450px]'>
             <h1 
-            className='text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem]'
+            className='text-richblack-900 font-semibold text-[1.875rem] leading-[2.375rem]'
             >{title}</h1>
 
             <p className='text=[1.25rem leading[1.625rem] mt-4'>
-                <span className='text-richblack-100'>{desc1}</span>
+                <span className='text-richblack-900'>{desc1}</span>
                 <br/>
-                <span className='text-blue-100 italic'>{desc2}</span>
+                <span className='text-blue-500 italic'>{desc2}</span>
             </p>
 
             {formtype === "signup" ?
@@ -31,9 +31,9 @@
                 <div className='h-[1px] w-full bg-richblack-700'></div>
             </div>
 
-            <button className='w-full flex justify-center items-center text-richblack-100 rounded-[8px]
-            font-medium border border-richblack-700 px-[8px] gap-x-2 mt-5'>
-            <FcGoogle/>
+            <button className='w-full flex justify-center items-center text-richblack-900 rounded-[8px]
+            font-medium border px-[8px] gap-x-2 mt-5 bg-blue-500'>
+            <FaGoogle />
                 Sign in with Google
             </button>
 

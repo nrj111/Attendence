@@ -43,7 +43,7 @@ const LoginForm = ({setIsLoggedIn}) => {
     <form onSubmit={submitHandler}
     className='flex flex-col w-full gap-y-4 mt-6'>
         <label className='w-full'>
-            <p className='text-[0.875rem] text-richblack-5
+            <p className='text-[0.875rem] text-richblack-900
             mb-1 leading-[1.375rem]'>
             Email Address<sup className='text-pink-200'>*</sup>
             </p>
@@ -54,14 +54,14 @@ const LoginForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder='Enter email'
                 name="email"
-                className='bg-richblack-800 rounded-[0.5rem]
+                className='bg-richblack-500 rounded-[0.5rem]
                  text-richblack-5 w-full p-[6px]'
             />
 
         </label>
 
         <label className='w-full relative'>
-            <p className='text-[0.875rem] text-richblack-5
+            <p className='text-[0.875rem] text-richblack-900
             mb-1 leading-[1.375rem]'>
             Password<sup className='text-pink-200'>*</sup>
             </p>
@@ -72,7 +72,7 @@ const LoginForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder='Enter Password'
                 name="password"
-                className='bg-richblack-800 rounded-[0.5rem]
+                className='bg-richblack-500 rounded-[0.5rem]
                  text-richblack-5 w-full p-[6px]'
             />
 
@@ -86,12 +86,12 @@ const LoginForm = ({setIsLoggedIn}) => {
         </label>
 
         <Link to="#"> 
-            <p className='text-xs mt-0 text-blue-100 max-w-max ml-auto'>
+            <p className='text-xs mt-0 text-richblack-900 max-w-max ml-auto'>
                 Forgot Password
             </p>
         </Link>
 
-        <button className='bg-yellow-50 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px] mt-6'>
+        <button className='bg-blue-500 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px] mt-6'>
             Sign In
         </button>
 
